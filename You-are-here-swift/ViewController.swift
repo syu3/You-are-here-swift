@@ -72,6 +72,8 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
     
     @IBAction func onClickMyButton(sender: AnyObject) {
         myLocationManager.startUpdatingLocation()
+        
+        
     }
     // 位置情報取得に成功したときに呼び出されるデリゲート.
     func locationManager(manager: CLLocationManager!,didUpdateLocations locations: [AnyObject]!){
